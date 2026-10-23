@@ -1,8 +1,0 @@
-"use strict"
-
-for (let i = 2; i <= 18; i++) 
-    if (i % 2 == 0) {
-        console.log(i + " on ihan perseenreikä.")
-    } else {
-        console.log(i + " on täysin paska.")
-    }
