@@ -1,3 +1,0 @@
-Kopioi prisma-kansion sisältö projektisi prisma-kansioon ja suorita npx prisma generate. Data.db-tiedosto on valmis sqlite-tietokanta, jonka malli on määritelty schema.prisma-tiedostossa. Kannassa on 25 henklilön tiedot, voit selata tietoja Prisma Studiolla.
-
-Kuvat-kansiossa on henkilöstön kuvat. Sijoita kuvat vapaasti osaksi palvelinsovelluksen koodeja, kuten toimeksiannossa on esitetty. Kansion nimi ei siis tarvitse olla 'kuvat'.
