@@ -1,0 +1,88 @@
+npx create-react-app . --template typescript
+
+npm start
+
+npm install
+
+--------
+
+React Router
+
+npm i react-router-dom
+
+npm start
+
+Index.tsx: import {BrowserRouter} from 'react-router-dom';
+
+--------
+
+npm i @mui/material 
+@mui/x-date-pickers 
+react-router-dom 
+date-fns 
+@date-io/date-fns 
+@fontsource/roboto
+
+--------
+
+import { DateTimePicker, LocalizationProvider } from '@mui/x-date-pickers';
+import {AdapterDateFNS} from '@mui/x-date-pickers/AdapterDateFns';
+import {fi} from 'date-fns/locale';
+import {Format} from 'date-fns';
+
+--------
+
+React Icons
+
+npm install @mui/icons-material
+
+npm start
+
+--------
+MUI
+
+mui.com
+
+npm install @mui/material
+
+npm start
+
+Roboto importataan (index.tsx:ään):
+
+npm install @fontsource/roboto
+
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
+--------
+
+Aloitusrunko:
+import React, {useState, useEffect} from 'react';
+
+const App : React.FC = () : React.ReactElement => {
+
+  return (
+<>
+ 
+</>
+
+); }
+    
+export default App;
+
+--------
+
+Kuva Reactiin:
+
+import logo from './logo.svg';
+
+<img src={logo} className="App-logo" alt="logo" />
+
+--------
+Propsien tuominen:
+
+interface Props {
+    children: React.ReactElement | React.ReactElement[] | string | number 
+}

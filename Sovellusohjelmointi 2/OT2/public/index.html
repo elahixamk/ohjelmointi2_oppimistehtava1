@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <title>Oppimistehtävä 2: Verkkokaupan varastokirjanpito</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Verkkokaupan varastokirjanpito</h1>
+
+        <p>Sovellus pitää kirjaa seuraavista komponenttien tiedoista:
+                <ul>
+                    <li><strong>ID:</strong> Komponentin yksilöivä tunnus, joka luodaan automaattisesti lisäämisen yhteydessä.</li>
+                    <li><strong>Kategoria:</strong> Komponentin kategoria tekstinä, eli mikä tietokoneen osa on kyseessä (esim. CPU, GPU, RAM, PSU, Emolevy, SSD, HDD, Kotelo).</li>
+                    <li><strong>Merkki:</strong> Komponentin merkki tekstinä.</li>
+                    <li><strong>Malli:</strong> Komponentin malli tekstinä.</li>
+                    <li><strong>Hinta:</strong> Komponentin myyntihinta numerona.</li>
+                    <li><strong>Määrä:</strong> Komponentin kokonaismäärä varastossa numerona.</li>
+                    <li><strong>Päivitetty:</strong> Tieto siitä, milloin komponentin tietoa on päivitetty viimeksi. Tieto on muotoa pp.kk.vvvv (ei kellonaikaa). Tiedon voi tallentaa String-muodossa tai Date-objektina.</li>
+                </ul>
+        </p>
+
+        <p>Varastokirjanpidon toiminnallisuus testataan Postman-sovelluksella.
+
+            URL-osoitteena toimii <i>http://localhost:3102/api/komponentit</i>.</p>
+    </div>
+
+</body>
+
+</html>
